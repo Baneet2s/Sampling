@@ -9,10 +9,15 @@ This repository demonstrates the application of various sampling techniques to h
 - **Performance Analysis**: Accuracy comparison of models across sampling methods.
 
 ## Results Summary
-| Sampling Technique       | Random Forest | Logistic Regression | SVM      | Decision Tree | KNN      |
-|---------------------------|---------------|----------------------|----------|---------------|----------|
+| Sampling Technique        | Random Forest | Logistic Regression | SVM      | Decision Tree | KNN      |
+|---------------------------|---------------|---------------------|----------|---------------|----------|
 | Simple Random Sampling    | 97.58%        | 97.58%              | 97.58%   | 95.97%        | 97.58%   |
 | Bootstrap Sampling        | 99.35%        | 99.35%              | 99.35%   | 98.71%        | 99.35%   |
 | Stratified Sampling       | 98.39%        | 98.39%              | 98.39%   | 98.39%        | 98.39%   |
 | Cluster Sampling          | 100.00%       | 100.00%             | 100.00%  | 100.00%       | 100.00%  |
+
+## Visualisation
+
+![Image](https://github.com/Baneet2s/Sampling/blob/main/accuracy_comparison.png)
+
 
